@@ -10,12 +10,6 @@ import SinglePost from "./components/singlePost/SinglePost";
 import Register from "./pages/home/register/Register";
 
 
-
-
-
-
-
-
 function App() {
   
   const currentUser = false;

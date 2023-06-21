@@ -11,15 +11,16 @@ export default function Home() {
     const fetchPosts = async ()=>{
        const res = await axios.get("/posts")
        setPosts(res.data)
+       console.log("ALlan")
     }
-    fetchPosts()
+   fetchPosts()
   }, [])
   return (
     <>
       <Header/>
     <div className="home">
       
-       <Posts />
+       <Posts posts ={posts} />
        <Sidebar/>
         </div>
         </>
