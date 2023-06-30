@@ -3,7 +3,8 @@ import Home from "./pages/home/Home";
 import Single from "./pages/home/single/Single";
 import Write from "./pages/home/write/Write";
 import Login from "./pages/home/login/Login";
-
+import React from 'react';
+import ReactDOM from 'react-dom';
 import Settings from "./pages/home/settings/Settings";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import SinglePost from "./components/singlePost/SinglePost";
