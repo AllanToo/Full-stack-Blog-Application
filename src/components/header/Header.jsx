@@ -4,12 +4,12 @@ export default function Header() {
   return (
     <div className='header'>
        <div className="headerTitles">
-        <span className="headerTitleSm"> My First Full-Stack App</span>
+        <span className="headerTitleSm"> Node & Mongo Full-Stack App</span>
        
 
        </div>
 
-       <img src="https://images.pexels.com/photos/262508/pexels-photo-262508.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" className="headerImg"  alt=""        />
+      <img src= "https://cdn.pixabay.com/photo/2020/04/03/06/35/work-4997565_640.png" className="headerImg"  alt=""        />
        
        </div>
   )
