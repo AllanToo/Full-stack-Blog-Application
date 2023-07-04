@@ -34,16 +34,16 @@ font-family: 'Tinos', serif;
 }
 
 .singlePostIcon{
-    margin-left: 10px;
-    cursor: pointer;
+    margin-top: 800px;
+   
 }
 
 .singlePostIcon:first-child{
-    color: teal;
+    color: rgb(66, 19, 19);
 }
 
 .singlePostIcon:last-child{
-    color: brown;
+    color: rgb(78, 1, 1);
 }
 
 .singlePostInfo{
@@ -51,7 +51,7 @@ font-family: 'Tinos', serif;
     display: flex;
     justify-content: space-between;
     font-size: 16px;
-    color: aquamarine;
+    color: rgb(0, 0, 0);
 }
 
 .singlePostDesc{
