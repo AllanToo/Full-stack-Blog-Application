@@ -9,7 +9,7 @@
 }
 
 .singlePostImg{
-    width: 100%;
+    width: 1500px;
     height: 500px;
     border-radius: 5px;
     object-fit: cover;
@@ -65,3 +65,19 @@ margin-left: 20px;
 font-size: 30px;
 font-weight: 600;
 }
+.delete {
+    transition-duration: 0.4s;
+    font-weight: bolder;
+    border: none;
+    color: rgb(0, 255, 34);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  
+  .delete:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }

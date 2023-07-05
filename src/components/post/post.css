@@ -5,11 +5,15 @@
     margin-top: 50px;
     margin-bottom: 20px;
     margin-left: 280px;
-    
-    box-decoration-break: slice;-webkit-box-decoration-break: slice;box-shadow: 8px 8px 10px 0 #f5e82f, -5px -5px 5px 0 rgb(35, 241, 52), 5px 5px 15px 0 #ff0;
-    
+    box-decoration-break: slice;-webkit-box-decoration-break: slice;box-shadow: 8px 8px 10px 0 #f8f3ad, -5px -5px 5px 0 rgb(185, 253, 191), 5px 5px 15px 0 rgb(250, 250, 143);
+ 
 }
-
+.post:hover{
+    color: #234E70;
+    background-color:#f8f7d9;
+    border-radius: 20px;
+    transition:  all 0.1s ease-in;
+  }
 
 .postImg{
     width: 70%;
@@ -67,7 +71,7 @@ cursor: pointer;
     margin-top: 15px;
     overflow: hidden;
     display: -webkit-box;
-    -webkit-line-clamp: 3;
+    -webkit-line-clamp: 4;
     -webkit-box-orient: vertical;
    
 }
