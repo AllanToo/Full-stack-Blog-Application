@@ -15,12 +15,12 @@ export default function Sidebar() {
   return (
     <div className="sidebar">
       <div className="sidebarItem">
-        <span className="sidebarTitle">ABOUT ME</span>
-        <img src="https://images.pexels.com/photos/3098619/pexels-photo-3098619.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"  alt="" />
+        
+     
        
       </div>
         <div className="sidebarItem">
-        <span className="sidebarTitle">CATEGORIES</span>
+        <span className="sidebarTitle">Discover more of what matters to you</span>
             <ul className="sideBarList">
               {cats.map((c)=>(
                 <Link to={`/?cat=${c.name}`} className="link">
@@ -33,12 +33,10 @@ export default function Sidebar() {
             </ul>
         </div>
         <div className="sidebarItem">
-        <span className="sidebarTitle">FOLLOW US</span>
+       
 
         <div className="sideBarSocial">
-        <i className=" topIcon fa-brands fa-square-facebook"></i>
-       <i className=" topIcon fa-brands fa-square-instagram"></i>
-       <i className=" topIcon fa-brands fa-square-twitter"></i>
+       
         </div>
         </div>
         </div>

@@ -1,14 +1,22 @@
-.post{
-    width: 389px;
-    margin: 0px 25px 43px 22px;
 
+
+.post{
+    width: 50%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 280px;
+    
+    box-decoration-break: slice;-webkit-box-decoration-break: slice;box-shadow: 8px 8px 10px 0 #f5e82f, -5px -5px 5px 0 rgb(35, 241, 52), 5px 5px 15px 0 #ff0;
+    
 }
 
+
 .postImg{
-    width: 100%;
-    height: 270px;
-    object-fit: cover;
+    width: 70%;
+    height: 200px;
+    margin-left: 17%;
     border-radius: 7px;
+   
 }
 
 .postInfo{
@@ -18,6 +26,7 @@
     font-family: 'Inter', sans-serif;
 font-family: 'Playfair Display', serif;
 font-family: 'Tajawal', sans-serif;
+
 }
 
 .postCat{
@@ -33,9 +42,7 @@ font-family: 'Tajawal', sans-serif;
 }
 
 .postTitle{
-    font-family: 'Inter', sans-serif;
-font-family: 'Playfair Display', serif;
-font-family: 'Tajawal', sans-serif;
+    font-family: 'Nanum Myeongjo', serif;
 font-size: 24px;
 font-weight: 700;
 margin-top: 15px;
@@ -53,14 +60,14 @@ cursor: pointer;
     
 }
 
-.postDescrip{
-    font-size: 14px;
+.postDesc{
+    font-size: 20px;
     color: #444;
     line-height:24px ;
     margin-top: 15px;
     overflow: hidden;
-    text-overflow: ellipsis;
-    display:-webkit-box;
-    -webkit-line-clamp: 6;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
+   
 }

@@ -17,8 +17,11 @@ export default function Post({ post }) {
         </Link>
         <hr />
       </div>
+       <Link to={`/post/${post._id}`} className="link">
+       <p className="postDesc">{post.desc}</p>
+        </Link>
       
-      <p className="postDesc">{post.desc}</p>
+      
     </div>
   );
 }
