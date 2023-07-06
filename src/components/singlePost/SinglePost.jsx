@@ -79,7 +79,7 @@ export default function SinglePost() {
             </Link>
           </span>
         </div>
-       
+     
           <p className="singlePostDesc">{desc}</p>
         
        
