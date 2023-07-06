@@ -1,5 +1,5 @@
 {
-  "homepage": "https://blogappallan.onrender.com/",
+  "homepage": "https://master--clinquant-frangollo-2b3a97.netlify.app/",
   "name": "bloggg-app",
   "version": "0.1.0",
   "private": true,
@@ -39,5 +39,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://blogappallan.onrender.com/"
+  "proxy": "https://master--clinquant-frangollo-2b3a97.netlify.app/"
 }
