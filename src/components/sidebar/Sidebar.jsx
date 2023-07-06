@@ -11,9 +11,9 @@ export default function Sidebar() {
       setCats(res.data);
     }
     getCats();
-  },[])
+  },[]) 
   return (
-    <div className="sidebar">
+    <div className="sidebar"> 
      
         </div>
   )
