@@ -7,4 +7,4 @@
 
 [PostPage.pdf](https://github.com/AllanToo/Full-stack-Blog-Application/files/12036532/PostPage.pdf)
 
-Please reference this screenshot. Deployment still in progress!
+Please reference these screenshot. Deployment still in progress!
